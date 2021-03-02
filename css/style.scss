@@ -1,0 +1,25 @@
+*,*::before,*::after{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+body{
+
+}
+
+// code start
+.container{
+    margin: 100px auto;
+    max-width: 300px;
+}
