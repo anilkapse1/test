@@ -5,6 +5,9 @@ btnSelect.addEventListener("click",callFunc);
 
 function callFunc(){
     let inputVal = document.querySelector("input").value;
+    if(inputVal==""){
+        return false;
+    }
     let newList = document.createElement("li");
     newList.innerText=inputVal;
     uList.appendChild(newList);

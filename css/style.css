@@ -19,5 +19,47 @@ html {
 .container {
   margin: 100px auto;
   max-width: 300px;
+  border: 1px solid #d6d6d6;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.container h1 {
+  color: red;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.container div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container input[type="text"] {
+  padding: 5px 10px;
+  outline: none;
+}
+
+.container button {
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+
+.container ul {
+  list-style-type: decimal-leading-zero;
+  margin: 15px 0px;
+  padding-left: 40px;
+}
+
+.container ul li {
+  padding: 10px 0px;
 }
 /*# sourceMappingURL=style.css.map */
